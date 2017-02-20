@@ -1,5 +1,5 @@
 ### Overview
-It's referring [groonga/mroonga:mysql5717_mroonga613](https://github.com/mroonga/docker/tree/master/Dockerfile/mysql5717_mroonga700) repository.
+It's referring [mroonga/docker](https://github.com/mroonga/docker) repository.
 
 ### Difference
 - Root user's password is 'wercker' for wercker CI.
