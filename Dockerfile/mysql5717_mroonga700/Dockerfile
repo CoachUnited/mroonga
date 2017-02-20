@@ -2,7 +2,7 @@
 FROM centos:centos6.6
 MAINTAINER Kazuaki Shibuya <k_shibuya@cunited.jp>
 
-ARG MYSQL_PASSWORD="wercker"
+ARG MYSQL_PASSWORD=""
 ENV MYSQL_ROOT_PASSWORD ${MYSQL_PASSWORD}
 RUN yum upgrade -y
 RUN yum install -y which
